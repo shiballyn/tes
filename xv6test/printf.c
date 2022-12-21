@@ -8,6 +8,8 @@ putc(int fd, char c)
   write(fd, &c, 1);
 }
 
+test thing
+
 static void
 printint(int fd, int xx, int base, int sgn)
 {
